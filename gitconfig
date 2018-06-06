@@ -7,6 +7,7 @@
     ap = add -p
     s = status
     pr = pull -r
+    pu = push
     cm = commit -m
     ca = commit --amend
 
