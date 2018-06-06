@@ -1,0 +1,14 @@
+[user]
+    name = Luke Rigby
+    email = 1016498+its-rigs@users.noreply.github.com
+
+[alias]
+    aa = add -A
+    ap = add -p
+    s = status
+    pr = pull -r
+    cm = commit -m
+    ca = commit --amend
+
+[color]
+    ui = true
