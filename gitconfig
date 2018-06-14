@@ -3,6 +3,7 @@
     email = 1016498+its-rigs@users.noreply.github.com
 
 [alias]
+    a = add
     aa = add -A
     ap = add -p
     s = status
@@ -10,6 +11,7 @@
     pu = push
     cm = commit -m
     ca = commit --amend
+    d = diff
 
 [color]
     ui = true
