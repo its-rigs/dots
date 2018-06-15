@@ -17,7 +17,7 @@ alias 'bk=cd $OLDPWD'
 alias l='ls -GFh' # Colorize output, add file type indicator, and put sizes in human readable format
 alias ll='ls -GFhl' # Same as above, but in long listing format
 alias lh='ls -d .*' # show hidden files/directories only
-alias ?='pwd'
+alias '?=pwd'
 
 # -------------------------------------------------------------------
 # Misc

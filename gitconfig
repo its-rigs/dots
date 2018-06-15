@@ -9,9 +9,11 @@
     s = status
     pr = pull -r
     pu = push
-    cm = commit -m
     ca = commit --amend
+    cm = commit -m
+    co = checkout
     d = diff
+    r = rebase
 
 [color]
     ui = true
