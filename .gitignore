@@ -1,2 +1,2 @@
 *.zwc
-zsh/work/*.zsh
+**/work/*.zsh

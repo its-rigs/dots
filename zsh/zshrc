@@ -7,3 +7,4 @@ source ~/.zsh/prompt.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/functions.zsh
 
+for f in ~/.zsh/work/*.zsh; do source $f; done
