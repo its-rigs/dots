@@ -6,7 +6,6 @@ function take() {
 function brewup() {
   echo "==> Running 'brew update'" && brew update &&
   echo "==> Running 'brew upgrade'" && brew upgrade &&
-  echo "==> Running 'brew prune'" && brew prune &&
   echo "==> Running 'brew cleanup'" && brew cleanup
   echo "==> Running 'brew doctor'" && brew doctor
   echo "==> Running 'brew outdated'" && 
