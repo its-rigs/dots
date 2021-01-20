@@ -7,4 +7,8 @@ source ~/.zsh/prompt.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/functions.zsh
 
-for f in ~/.zsh/work/*.zsh; do source $f; done
+for f in ~/.zsh/work/*.zsh; do
+  if [ -f $f ]; then
+    source $f;
+  fi
+done
