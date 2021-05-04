@@ -8,9 +8,6 @@ function brewup() {
   echo "==> Running 'brew upgrade'" && brew upgrade &&
   echo "==> Running 'brew cleanup'" && brew cleanup
   echo "==> Running 'brew doctor'" && brew doctor
-  echo "==> Running 'brew outdated'" && 
-    brew cask outdated | while read cask; do brew cask reinstall $cask; done
-  echo "==> Running 'brew cask cleanup'" && brew cleanup
 }
 
 function extract {
