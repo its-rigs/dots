@@ -1,9 +1,5 @@
 {
-  "Ansi 3 Color" : {
-    "Green Component" : 1,
-    "Blue Component" : 0.71372550000000001,
-    "Red Component" : 1
-  },
+  "Right Option Key Sends" : 0,
   "Tags" : [
 
   ],
@@ -12,7 +8,11 @@
     "Blue Component" : 0.9982605,
     "Red Component" : 0.71165029999999996
   },
-  "Horizontal Spacing" : 1,
+  "Ansi 6 Color" : {
+    "Green Component" : 0.77254900000000004,
+    "Blue Component" : 0.99607840000000003,
+    "Red Component" : 0.77647060000000001
+  },
   "Ansi 7 Color" : {
     "Green Component" : 0.93353169999999996,
     "Blue Component" : 0.93353169999999996,
@@ -33,13 +33,17 @@
     "Blue Component" : 0.69019609999999998,
     "Red Component" : 1
   },
-  "Right Option Key Sends" : 0,
+  "Ansi 3 Color" : {
+    "Green Component" : 1,
+    "Blue Component" : 0.71372550000000001,
+    "Red Component" : 1
+  },
   "Rows" : 35,
   "Default Bookmark" : "No",
-  "Ansi 6 Color" : {
-    "Green Component" : 0.77254900000000004,
-    "Blue Component" : 0.99607840000000003,
-    "Red Component" : 0.77647060000000001
+  "Ansi 2 Color" : {
+    "Green Component" : 1,
+    "Blue Component" : 0.37647059999999999,
+    "Red Component" : 0.65882350000000001
   },
   "AWDS Tab Option" : "Recycle",
   "Cursor Guide Color" : {
@@ -306,7 +310,7 @@
   "Terminal Type" : "xterm-256color",
   "Visual Bell" : true,
   "Flashing Bell" : false,
-  "Silence Bell" : false,
+  "Silence Bell" : true,
   "Session Close Undo Timeout" : 10,
   "Ansi 14 Color" : {
     "Green Component" : 0.87631029999999999,
@@ -331,7 +335,7 @@
     "Red Component" : 0.30978869999999997
   },
   "Guid" : "6C3B6F88-BC99-497A-AC6D-9F198CE9A59C",
-  "Custom Directory" : "Advanced",
+  "Horizontal Spacing" : 1,
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -358,9 +362,5 @@
     "Blue Component" : 0.37647059999999999,
     "Red Component" : 1
   },
-  "Ansi 2 Color" : {
-    "Green Component" : 1,
-    "Blue Component" : 0.37647059999999999,
-    "Red Component" : 0.65882350000000001
-  }
+  "Custom Directory" : "Advanced"
 }

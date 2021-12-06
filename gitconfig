@@ -15,6 +15,9 @@
     d = diff
     r = rebase
     who = blame
+    st = stash
+    stu = stash -u
+    stp = stash pop
 
 [color]
     ui = true

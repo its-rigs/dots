@@ -1,13 +1,41 @@
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sections:
-"    -> VIM user interface
+"    -> User interface
+"    -> Plugins
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => VIM user interface
+" => User interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Show line numbers
 set number
+
+" Enable soft wrapping at the edge of the screen
+" and don't wrap in the middle of a work
+set wrap linebreak
+
+" Make a vertical column in the background
+set colorcolumn=120
+highlight ColorColumn ctermbg=0
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+" https://github.com/junegunn/vim-plug
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+
+" Goyo https://github.com/junegunn/goyo.vim
+Plug 'junegunn/goyo.vim'
+
+" Markdown https://github.com/SidOfc/mkdx
+Plug 'SidOfc/mkdx', { 'for': 'markdown' }
+
+" Initialize plugin system
+call plug#end()
+
