@@ -14,6 +14,7 @@
     co = checkout
     d = diff
     r = rebase
+    rs = restore --staged
     who = blame
     st = stash
     stu = stash -u
