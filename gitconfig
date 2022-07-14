@@ -2,6 +2,12 @@
     name = Luke Rigby
     email = 1016498+its-rigs@users.noreply.github.com
 
+[color]
+    ui = true
+
+[init]
+	defaultBranch = main
+
 [alias]
     a = add
     aa = add -A
@@ -20,5 +26,4 @@
     stu = stash -u
     stp = stash pop
 
-[color]
-    ui = true
+
