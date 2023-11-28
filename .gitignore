@@ -1,4 +1,4 @@
 *.zwc
 vim/vim/plugged
-**/work/*.zsh
+**/work/*
 .DS_STORE

@@ -26,8 +26,9 @@ alias clr='clear'
 alias ei='exit'
 
 # -------------------------------------------------------------------
-# Git
+# Programs
 # -------------------------------------------------------------------
-alias g='git'
+alias g='nocorrect git'
+alias vim='nvim'
 # The rest are in git config at the minute
 

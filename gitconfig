@@ -6,7 +6,7 @@
     ui = true
 
 [init]
-	defaultBranch = main
+    defaultBranch = main
 
 [alias]
     a = add
@@ -17,7 +17,9 @@
     pu = push
     ca = commit --amend
     cm = commit -m
+    c = commit
     co = checkout
+    cob = checkout -b
     d = diff
     r = rebase
     rs = restore --staged
@@ -26,4 +28,6 @@
     stu = stash -u
     stp = stash pop
 
+[push]
+    autoSetupRemote = true
 
